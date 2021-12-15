@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="bg-slate-900">
-      <p className="text-white">Hallo, Perkenalkan Namaku</p>
+    <div className="bg-slate-900 p-20">
+      <p className="text-white font-mono">Hallo, Perkenalkan Namaku</p>
       <p
         className="text-white font-bold"
         style={{
@@ -21,11 +21,13 @@ function Header() {
       >
         i Build Things For The Web.
       </p>
-      <p className="text-white">
-        dfhsd fsldkjvnskdhsikdnskdlgn sdlkfnsdfkjsnbdlfkjn sdlkfnsdfkjsnbdlfkjn ksdjfnisdkfj ssdjfnskdjbfakdljfod skdjnfskd flsdksjdnflkasdfksdj,f asdf ksdjfnakdflka.jfkjdnfsladkfjwighwuhrejsndfjsdoifhjwensdlk sdfiadgsfoakfnkjasdbfnsdjkf
-        sadfsdfsdfsdfsdsdf nurhamsah
+      <p className="text-white max-w-3xl font-mono">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis aliquam, perferendis porro magnam officiis id numquam quidem laborum nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis aliquam, perferendis
+        porro magnam officiis id numquam quidem laborum nobis.
       </p>
-      <button className="text-teal-100 border border-teal-300 px-5 py-3 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black">Masuk</button>
+      <button className="text-teal-100 border border-teal-300 justify-center p-3 mt-10 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black flex">
+        Get in Touch <img className="ml-3" src="https://www.svgrepo.com/show/354560/whatsapp.svg" width="7%" />
+      </button>
     </div>
   );
 }
