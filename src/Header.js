@@ -9,20 +9,17 @@ function Header() {
         i Build Things For <span className="text-teal-500 ">The Web.</span>
       </p>
       <p className="text-white max-w-3xl font-mono">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis
-        aliquam, perferendis porro magnam officiis id numquam quidem laborum
-        nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+        Lorem hiddpsum dolor sit amet consectetur adipisicing elit. Culpa
         debitis aliquam, perferendis porro magnam officiis id numquam quidem
-        laborum nobis.
+        laborum nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Culpa debitis aliquam, perferendis porro magnam officiis id numquam
+        quidem laborum nobis.
       </p>
-      <button className="text-teal-100 border border-teal-300 justify-center p-3 mt-10 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black flex">
-        Get in Touch{' '}
-        <img
-          className="ml-3"
-          src="https://www.svgrepo.com/show/354560/whatsapp.svg"
-          width="7%"
-        />
-      </button>
+      <a href="https://wa.me/6281213221343">
+        <button className="text-teal-100 border border-teal-300 justify-center p-3 mt-10 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black flex">
+          Hubungi Saya !
+        </button>
+      </a>
     </div>
   );
 }
