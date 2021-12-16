@@ -10,7 +10,7 @@ function Header() {
           fontSize: "80px",
         }}
       >
-        NURHAMSAH.
+        NURHAMSAH. -
       </p>
       <p
         className="text-white"
