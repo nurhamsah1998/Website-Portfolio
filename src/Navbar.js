@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <div className="flex justify-between p-5 items-center bg-slate-900">
+    <div className="shadow-lg top-0 shadow-cyan-500/20 sticky flex justify-between p-5 items-center bg-slate-900">
       <div className="">
         <span className="font-bold tracking-wide text-white text-2xl duration-200 ">
           NUR
