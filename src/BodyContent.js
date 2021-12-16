@@ -2,8 +2,8 @@ import React from 'react';
 
 function BodyContent() {
   return (
-    <div className="bg-slate-900 md:flex text-white font-tahoma grid justify-evenly">
-      <div className="max-w-xl md:border border-transparent border border-teal-400 md:border-teal-400 p-9">
+    <div className="bg-slate-900 lg:flex text-white font-tahoma grid justify-evenly">
+      <div className="max-w-xl order-2 lg:order-1 p-9">
         <p>Tentang Saya, </p>
         <p className="mt-9">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga iure,
@@ -51,9 +51,37 @@ function BodyContent() {
               />
               Memahami dasar-dasar JavaScript
             </li>
+            <li className="mt-6 lg:hidden flex items-center">
+              <img
+                className="w-5 mr-3"
+                src="https://www.svgrepo.com/show/44093/right-arrow.svg"
+              />
+              Bisa menggunkan framework tailwind
+            </li>
+            <li className="mt-3 lg:hidden flex items-center">
+              <img
+                className="w-5 mr-3"
+                src="https://www.svgrepo.com/show/44093/right-arrow.svg"
+              />
+              Menguasai dasar-dasar ReactJS
+            </li>
+            <li className="mt-3 lg:hidden flex items-center">
+              <img
+                className="w-5 mr-3"
+                src="https://www.svgrepo.com/show/44093/right-arrow.svg"
+              />
+              Bisa membuat component ReactJS
+            </li>
+            <li className="mt-3 lg:hidden flex items-center">
+              <img
+                className="w-5 mr-3"
+                src="https://www.svgrepo.com/show/44093/right-arrow.svg"
+              />
+              ...dan lain lain
+            </li>
           </ul>
-
-          <div className="ml-20">
+          {/* ------------------------- */}
+          <div className="ml-20 lg:block hidden">
             <li className="mt-6 flex items-center">
               <img
                 className="w-5 mr-3"
@@ -86,7 +114,7 @@ function BodyContent() {
         </div>
       </div>
       <img
-        className="w-1/4"
+        className=" p-9 lg:w-1/3 order-1 lg:order-2"
         src="https://www.svgrepo.com/show/217753/github.svg"
       />
     </div>
