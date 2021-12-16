@@ -15,23 +15,23 @@ function Navbar() {
           <li>
             <a
               className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-10"
-              href=""
+              href="#header"
             >
               Tentang
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-10"
-              href=""
+              href="#"
             >
               Pengalaman
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-10"
-              href=""
+              href="#1"
             >
               Pekerjaan
             </a>
@@ -39,7 +39,7 @@ function Navbar() {
           <li>
             <a
               className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-100"
-              href=""
+              href="#ini"
             >
               Contact
             </a>

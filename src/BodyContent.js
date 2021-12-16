@@ -2,10 +2,13 @@ import React from 'react';
 
 function BodyContent() {
   return (
-    <div className="bg-slate-900 lg:flex text-white font-tahoma pb-60 grid justify-evenly">
+    <div
+      id="header"
+      className="bg-slate-900 pt-20 lg:flex text-white font-tahoma pb-80 grid justify-evenly"
+    >
       <div className="max-w-xl order-2 lg:order-1 p-9">
         <p className="font-bold font-mono">Tentang Saya, </p>
-        <p className="mt-9 font-mono font-bold tracking-tighter">
+        <p className="mt-9 font-mono text-sm tracking-tighter">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga iure,
           qui ipsam architecto expedita quas incidunt, cumque, consequuntur ipsa
           error eligendi illum saepe quos! Consectetur nobis dolor neque
@@ -14,12 +17,12 @@ function BodyContent() {
           consequuntur ipsa error eligendi illum saepe quos! Consectetur nobis
           dolor neque doloribus in!
         </p>
-        <p className="mt-2 font-mono font-bold tracking-tighter">
+        <p className="mt-2 font-mono text-sm tracking-tighter">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga iure,
           qui ipsam architecto expedita quas incidunt, cumque, consequuntur ipsa
           error eligendi illum saepe quos! Consectetur nobis dolor neque
         </p>
-        <p className="mt-2 font-mono font-bold tracking-tighter">
+        <p className="mt-2 font-mono text-sm tracking-tighter">
           Berikut Keahlian Saya :
         </p>
         <div className="grid lg:flex">
