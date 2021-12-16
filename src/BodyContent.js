@@ -2,7 +2,7 @@ import React from 'react';
 
 function BodyContent() {
   return (
-    <div className="bg-slate-900 lg:flex text-white font-tahoma grid justify-evenly">
+    <div className="bg-slate-900 lg:flex text-white font-tahoma pb-60 grid justify-evenly">
       <div className="max-w-xl order-2 lg:order-1 p-9">
         <p className="font-bold font-mono">Tentang Saya, </p>
         <p className="mt-9 font-mono font-bold tracking-tighter">

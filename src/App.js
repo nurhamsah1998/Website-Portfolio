@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import BodyContent from './BodyContent';
+import Text from './Text';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <BodyContent />
+      <Text />
     </div>
   );
 }
