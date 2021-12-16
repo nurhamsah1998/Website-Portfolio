@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div className="bg-slate-900 p-20">
+    <div className="bg-slate-900 p-20 grid justify-center">
       <p className="text-white font-mono">Hallo, Perkenalkan Namaku</p>
       <p className="text-white font-bold text-5xl">NURHAMSAH.</p>
       <p className="text-white font-bold text-8xl mb-5">
