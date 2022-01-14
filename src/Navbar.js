@@ -1,8 +1,11 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Navbar() {
+  AOS.init();
   return (
-    <div className="shadow-lg top-0 shadow-cyan-500/20 sticky flex justify-between p-5 items-center bg-slate-900">
+    <div className="shadow-lg z-50 top-0 shadow-gray-500/20 sticky flex justify-between p-5 items-center bg-teal-700">
       <div className="">
         <span className="font-bold tracking-wide text-white text-2xl duration-200 ">
           NUR
@@ -13,34 +16,22 @@ function Navbar() {
       <div className="flex items-center">
         <ul className="hidden lg:flex md:grid mr-10">
           <li>
-            <a
-              className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-10"
-              href="#header"
-            >
-              Tentang
+            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#header">
+              About
             </a>
           </li>
-          {/* <li>
-            <a
-              className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-10"
-              href="#"
-            >
-              Pengalaman
-            </a>
-          </li> */}
           <li>
-            <a
-              className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-10"
-              href="#1"
-            >
+            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#work">
+              My Work
+            </a>
+          </li>
+          <li>
+            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#1">
               Pekerjaan
             </a>
           </li>
           <li>
-            <a
-              className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-mono text-teal-100 mr-100"
-              href="#ini"
-            >
+            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-100" href="#ini">
               Contact
             </a>
           </li>
