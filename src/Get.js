@@ -1,6 +1,6 @@
-import React from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Footer() {
   AOS.init({
@@ -10,14 +10,18 @@ function Footer() {
   return (
     <div id="ini" className="text-center pt-40 p-20">
       <p data-aos-delay="160" data-aos="fade-up" className="pb-4 text-[30px]">
-        Anda berminat
+        Anda Berminat
       </p>
       <p data-aos-delay="360" data-aos="fade-up" className="pb-4 text-3xl text-teal-400">
         Get In Touch!
       </p>
-      <p data-aos-delay="560" data-aos="fade-up" className=" leading-6 font-light pb-4 mx-auto max-w-3xl text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde qui vitae adipisci iusto suscipit eligendi dolorum ipsam corrupti laborum sunt officiis quaerat, illo
-        provident non blanditiis sit tempora enim alias.
+      <p
+        data-aos-delay="560"
+        data-aos="fade-up"
+        className=" leading-6 font-light pb-4 mx-auto max-w-3xl text-lg"
+      >
+        Saya akan menjawab semua pertanyaan yang diajukan. Tentunya dengan kapasitas kemampuan saya.
+        Saya akan merasa senang jika kita menjalin hubungan dengan pertanyaan.
       </p>
       <a href="https://wa.me/6281213221343">
         <button

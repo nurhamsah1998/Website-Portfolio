@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1024px) {
+  .nur {
+    width: 750px;
+  }
+  .tab {
+    display: grid;
+  }
+  .tab2 {
+    display: flex;
+    align-items: baseline;
+  }
+  .x {
+    display: none;
+  }
+}
+@media only screen and (max-width: 852px) {
+  .nur {
+    width: 300px;
+  }
+  .text1 {
+    font-size: 40px;
+    width: 400px;
+    margin: 0px auto;
+  }
+  .text2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .a,
+  .s {
+    text-align: center;
+  }
+  .v {
+    margin-top: 20px;
+  }
+  .n,
+  .m {
+    width: 380px;
+  }
+}
