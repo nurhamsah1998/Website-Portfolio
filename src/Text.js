@@ -1,30 +1,72 @@
-import React from 'react';
+import { Tab } from '@headlessui/react';
+import { useState } from 'react';
+import GlobalPrinter from './GlobalPrinter';
+import CodeArt from './CodeArt';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Text() {
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
+function MyTabs() {
   AOS.init({
     offset: 100,
     duration: 1000,
   });
   return (
-    <div id="1" className="grid lg:flex pt-80 bg-teal-800 content-center justify-center pb-40 px-10 h-[800px] items-center">
-      <div className="grid lg:flex mr-5">
-        <p data-aos-delay="160" data-aos="fade-right" className="text-white pt-0 pr-3 font-light text-2xl">
-          Pekerjaan saat ini
-        </p>
-        <img data-aos-delay="160" data-aos="fade-righ" className="w-5 rotate-90 lg:rotate-0" src="https://www.svgrepo.com/show/44093/right-arrow.svg" />
-      </div>
-      <div className="pt-5 lg:pt-0">
-        <p data-aos-delay="160" data-aos="fade-down" className="text-white font-bold font-light text-xl">
-          Code Art
-        </p>
-        <p data-aos-delay="160" data-aos="fade-left" className="font-light leading-5 mt-2 max-w-sm text-white">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos architecto nulla at facere, consectetur error amet voluptatibus laborum eligendi?
-        </p>
+    <div id="work1" className=" py-[230px]">
+      <p data-aos-delay="160" data-aos="fade-up" className="text-[30px] font-light text-center">
+        Pengalaman Kerja
+      </p>
+      <div className=" w-full">
+        <div className="w-[1000px] mt-10 mx-auto">
+          <Tab.Group data-aos-delay="400" data-aos="fade-up">
+            <div className="flex">
+              <Tab.List className="grid ">
+                <div className="w-[300px]">
+                  <Tab
+                    className={({ selected }) =>
+                      classNames(
+                        'px-1 py-1 text-[20px] leading-5 font-medium text-blue-700 rounded-md',
+                        'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
+                        selected ? 'bg-white shadow' : 'text-blue-100 hover:bg-white/[0.12]'
+                      )
+                    }
+                  >
+                    Global Printer
+                  </Tab>
+                  <p className="text-sm">KedungWaru TulungAgung</p>
+                  <p className="text-sm">2016 - 2021</p>
+                </div>
+                <div className=" mt-28">
+                  <Tab
+                    className={({ selected }) =>
+                      classNames(
+                        'px-1 py-1 text-[20px] leading-5 font-medium text-red-500 rounded-md',
+                        'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-red-400 ring-white ring-opacity-60',
+                        selected ? 'bg-white shadow' : 'text-red-200 hover:bg-white/[0.12]'
+                      )
+                    }
+                  >
+                    CODE ART
+                  </Tab>
+                  <p className="text-sm">Sembung TulungAgung</p>
+                  <p className="text-sm">2021 - Present</p>
+                </div>
+              </Tab.List>
+              <Tab.Panels className="">
+                <Tab.Panel className="">
+                  <GlobalPrinter />
+                </Tab.Panel>
+                <Tab.Panel className="">
+                  <CodeArt />
+                </Tab.Panel>
+              </Tab.Panels>
+            </div>
+          </Tab.Group>
+        </div>
       </div>
     </div>
   );
 }
-
-export default Text;
+export default MyTabs;

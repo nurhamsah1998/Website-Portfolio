@@ -14,6 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `the package i installed`
+
+Headlessui (https://headlessui.dev/)
+TailWind CSS (https://tailwindcss.com/)
+AOS - Animate On Scroll Library (https://michalsnik.github.io/aos/)
+React Slick - Slider (https://react-slick.neostack.com/)
+inspired by (https://brittanychiang.com/)
+arrow icon (https://www.svgrepo.com/show/44093/right-arrow.svg)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

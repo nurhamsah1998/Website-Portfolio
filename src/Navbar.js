@@ -26,7 +26,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#1">
+            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#work1">
               Pekerjaan
             </a>
           </li>
@@ -38,7 +38,7 @@ function Navbar() {
         </ul>
 
         <button className="text-teal-100 border border-teal-300 px-5 py-3 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black">
-          resume
+          Hire Me
         </button>
       </div>
     </div>

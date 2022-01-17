@@ -8,32 +8,31 @@ function Header() {
     duration: 1000,
   });
   return (
-    <div className="bg-teal-500 pt-40 p-20 grid justify-center">
-      <p data-aos-delay="100" data-aos="fade-up" className="text-white font-mono">
-        Hallo, Perkenalkan Namaku
-      </p>
-      <p data-aos-delay="500" data-aos="fade-up" className="text-white font-bold text-5xl">
-        NURHAMSAH.
-      </p>
-      <p data-aos-delay="900" data-aos="fade-up" className="text-white font-bold text-8xl mb-5">
-        i Build Things For
-        <span data-aos-delay="900" data-aos="fade-up" className="text-teal-500 ">
-          The Web.
-        </span>
-      </p>
-      <p data-aos-delay="1300" data-aos="fade-up" className="text-white max-w-3xl font-mono">
-        Lorem hiddpsum dolor sit amet consectetur adipisicing elit. Culpa debitis aliquam, perferendis porro magnam officiis id numquam quidem laborum nobis. Lorem ipsum dolor sit
-        amet consectetur adipisicing elit. Culpa debitis aliquam, perferendis porro magnam officiis id numquam quidem laborum nobis.
-      </p>
-      <a href="https://wa.me/6281213221343">
-        <button
-          data-aos-delay="380"
-          data-aos="fade-up"
-          className="text-teal-100 border border-teal-300 justify-center p-3 mt-10 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black flex"
-        >
-          Hubungi Saya !
-        </button>
-      </a>
+    <div>
+      <div className=" pt-[70px] pb-[270px] grid justify-center">
+        <p data-aos-delay="100" data-aos="fade-up" className=" font-light">
+          Hallo, Perkenalkan Namaku
+        </p>
+        <p data-aos-delay="500" data-aos="fade-up" className="mt-5 font-light text-5xl">
+          NURHAMSAH.
+        </p>
+        <p data-aos-delay="900" data-aos="fade-up" className="mt-5 font-bold text-8xl mb-5">
+          Junior Programmer
+          <span data-aos-delay="900" data-aos="fade-up" className="text-teal-500 ">
+            {' '}
+            Web APP.
+          </span>
+        </p>
+
+        <div className="grid text-right  ml-5">
+          <p data-aos-delay="1500" data-aos="fade-left" className="py-1 text-[50px] font-extralight">
+            Pembuat Aplikasi Berbasis Web dan Android.
+          </p>
+          <a style={{ marginTop: '-10px' }} data-aos-delay="1800" data-aos="fade-left" className="py-1 text-[50px] font-extralight">
+            <button className="p-2 bg-teal-500 hover:bg-teal-400 duration-200 font-light text-white">Contact ME</button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
