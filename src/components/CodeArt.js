@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function CodeArt() {
   return (
@@ -8,9 +8,7 @@ function CodeArt() {
           Code Art TulungAgung /<span className="font-light"> Junior Pragrammer</span>
         </p>
         <span className=" font-light text-sm">December 2021 - Present, Sembung, Tulungagung</span>
-        <p className=" font-medium mt-5">
-          Saat ini bekerja di Code Art Tulungagung Sebagai Junior Programmer.
-        </p>
+        <p className=" font-medium mt-5">Saat ini bekerja di Code Art Tulungagung Sebagai Junior Programmer.</p>
         <div className="grid mt-5">
           <div>
             <span>Dengan skill sebagai berikut : </span>

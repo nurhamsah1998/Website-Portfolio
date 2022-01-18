@@ -3,9 +3,10 @@ import './App.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import BodyContent from './BodyContent';
-import Text from './Text';
 import Get from './Get';
 import MyWork from './MyWork';
+import Education from './components/Education';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Header />
       <BodyContent />
       <MyWork />
-      <Text />
+      <Experience />
+      <Education />
       <Get />
     </div>
   );

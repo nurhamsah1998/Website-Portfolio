@@ -9,7 +9,7 @@ function Footer() {
     duration: 1000,
   });
   return (
-    <div id="ini" className="text-center w-full pt-40 px-5">
+    <div id="ini" className="text-center w-full pt-20 pb-20 px-5">
       <p data-aos-delay="160" data-aos="fade-up" className="pb-4 text-[30px]">
         Anda Berminat
       </p>

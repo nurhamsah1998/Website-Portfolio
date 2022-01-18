@@ -31,15 +31,21 @@ function Navbar() {
             </a>
           </li>
           <li>
+            <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#pedidikan">
+              Pendidikan
+            </a>
+          </li>
+          <li>
             <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-100" href="#ini">
               Contact
             </a>
           </li>
         </ul>
-
-        <button className="text-teal-100 border border-teal-300 px-5 py-3 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black">
-          Hire Me
-        </button>
+        <a href="https://brittanychiang.com/">
+          <button className="text-teal-100 border border-teal-300 px-5 py-3 font-bold rounded ease-in duration-300 hover:bg-teal-300 shadow-lg hover:shadow-cyan-500/50 hover:text-black">
+            Hire Me
+          </button>
+        </a>
       </div>
     </div>
   );

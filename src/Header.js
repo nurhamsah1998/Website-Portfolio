@@ -29,7 +29,7 @@ function Header() {
           <p data-aos-delay="1500" data-aos="fade-down" className="py-1 text-[50px]  text2 font-extralight">
             Pembuat Aplikasi Berbasis Web dan Android.
           </p>
-          <a data-aos-delay="1800" data-aos="fade-down" className="py-1 r text-[50px] font-extralight">
+          <a href="https://brittanychiang.com/" data-aos-delay="1800" data-aos="fade-down" className="py-1 r text-[50px] font-extralight">
             <button className="p-2 bg-teal-500 hover:bg-teal-400 duration-200 font-light text-white">Contact ME</button>
           </a>
         </div>
