@@ -20,7 +20,7 @@ function Education() {
       </p>
       <div className="y  block lg:hidden">
         <div data-aos-delay="50" data-aos="fade-up" className=" m mt-10 mx-auto">
-          <CodeArt />
+          <Pendidikan />
         </div>
       </div>
       <div className="x px-[200px]">
