@@ -20,10 +20,10 @@ function MyTabs() {
         Pengalaman Kerja
       </p>
       <div className="y w-full block lg:hidden">
-        <div data-aos-delay="50" data-aos="fade-up" className="w-[650px] m mt-10 mx-auto">
+        <div data-aos-delay="50" data-aos="fade-up" className=" m mt-10 mx-auto">
           <GlobalPrinter />
         </div>
-        <div data-aos-delay="50" data-aos="fade-up" className="w-[650px] n mt-10 mx-auto">
+        <div data-aos-delay="50" data-aos="fade-up" className=" n mt-10 mx-auto">
           <CodeArt />
         </div>
       </div>
