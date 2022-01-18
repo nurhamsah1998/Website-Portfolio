@@ -1,7 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import imgs from './fococlipping-20220114-85943.png';
 
 function BodyContent() {
   AOS.init({

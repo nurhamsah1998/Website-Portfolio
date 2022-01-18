@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 import Header from './Header';
-import BodyContent from './BodyContent';
-import Get from './Get';
+import BodyContent from './components/BodyContent';
+import Get from './components/Get';
 import MyWork from './MyWork';
 import Education from './components/Education';
 import Experience from './components/Experience';

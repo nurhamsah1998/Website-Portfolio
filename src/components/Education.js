@@ -3,7 +3,7 @@ import CodeArt from './CodeArt';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../nur.css';
-import Pendidikan from '../Pendidikan';
+import Pendidikan from './Pendidikan';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
