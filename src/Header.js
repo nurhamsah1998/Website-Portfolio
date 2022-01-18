@@ -10,7 +10,7 @@ function Header() {
   });
   return (
     <div>
-      <div className="a mt-[70px] pb-[270px] w-full grid justify-center">
+      <div className="a mt-[70px] pb-[270px] grid justify-center">
         <p data-aos-delay="100" data-aos="fade-up" className=" font-light">
           Hallo, Perkenalkan Namaku
         </p>
