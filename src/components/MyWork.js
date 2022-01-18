@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import img1 from './image/1.png';
-import img2 from './image/2.png';
-import img3 from './image/3.png';
-import img4 from './image/4.png';
-import img5 from './image/5.png';
-import './nur.css';
+import img1 from '../image/1.png';
+import img2 from '../image/2.png';
+import img3 from '../image/3.png';
+import img4 from '../image/4.png';
+import img5 from '../image/5.png';
+import '../nur.css';
 
 function MyWork() {
   AOS.init({
@@ -85,6 +85,7 @@ function MyWork() {
       title: 'Website portfolio proffesional, dengan effect animasi ketika di scroll.',
       btn: 'View On GitHub',
       btn1: 'view DEMO',
+      link: 'https://github.com/nurhamsah1998/portfolio.nur.git',
     },
     {
       id: 1,
