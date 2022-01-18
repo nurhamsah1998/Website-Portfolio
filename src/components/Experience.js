@@ -19,7 +19,7 @@ function Experience() {
       <p data-aos-delay="160" data-aos="fade-up" className="text-[30px] font-light text-center">
         Pengalaman Kerja
       </p>
-      <div className="y  block lg:hidden">
+      <div className="y md:w-[600px] md:mx-auto  block lg:hidden">
         <div data-aos-delay="50" data-aos="fade-up" className=" m mt-10 mx-auto">
           <GlobalPrinter />
         </div>
@@ -33,7 +33,7 @@ function Experience() {
                   <Tab
                     className={({ selected }) =>
                       classNames(
-                        'px-1 py-1 text-[20px] leading-5 font-medium text-blue-700 rounded-md',
+                        'px-1 py-1 text-[20px] leading-5 lg:block hidden font-medium text-blue-700 rounded-md',
                         'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
                         selected ? 'bg-white shadow' : 'text-blue-100 hover:bg-white/[0.12]'
                       )
@@ -41,12 +41,12 @@ function Experience() {
                   >
                     Global Printer
                   </Tab>
-                  <p className="text-sm">KedungWaru TulungAgung</p>
-                  <p className="text-sm">2016 - 2021</p>
+                  <p className="text-sm lg:block hidden">KedungWaru TulungAgung</p>
+                  <p className="text-sm lg:block hidden">2016 - 2021</p>
                 </div>
               </Tab.List>
               <Tab.Panels className="">
-                <Tab.Panel data-aos-delay="50" data-aos="fade-up" className="">
+                <Tab.Panel data-aos-delay="50" data-aos="fade-up" className="lg:block hidden">
                   <GlobalPrinter />
                 </Tab.Panel>
               </Tab.Panels>

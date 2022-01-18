@@ -18,7 +18,7 @@ function Education() {
       <p data-aos-delay="160" data-aos="fade-up" className="text-[30px] font-light text-center">
         Pendidikan
       </p>
-      <div className="y  block lg:hidden">
+      <div className="y md:w-[500px] md:mx-auto block lg:hidden">
         <div data-aos-delay="50" data-aos="fade-up" className=" m mt-10 mx-auto">
           <Pendidikan />
         </div>
@@ -32,7 +32,7 @@ function Education() {
                   <Tab
                     className={({ selected }) =>
                       classNames(
-                        'px-1 py-1 text-[20px] leading-5 font-medium text-teal-500 rounded-md',
+                        'px-1 py-1 lg:block hidden text-[20px] leading-5 font-medium text-teal-500 rounded-md',
                         'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
                         selected ? 'bg-white shadow' : 'text-blue-100 hover:bg-white/[0.12]'
                       )
@@ -40,12 +40,12 @@ function Education() {
                   >
                     SMK PGRI kras
                   </Tab>
-                  <p className="text-sm">Kras Kediri</p>
-                  <p className="text-sm">2014 - 2017</p>
+                  <p className="text-sm lg:block hidden">Kras Kediri</p>
+                  <p className="text-sm lg:block hidden">2014 - 2017</p>
                 </div>
               </Tab.List>
               <Tab.Panels className="">
-                <Tab.Panel data-aos-delay="50" data-aos="fade-up" className="">
+                <Tab.Panel data-aos-delay="50" data-aos="fade-up" className=" lg:block hidden">
                   <Pendidikan />
                 </Tab.Panel>
               </Tab.Panels>
