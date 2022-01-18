@@ -1,13 +1,13 @@
-import { Tab } from "@headlessui/react";
-import { useState } from "react";
-import GlobalPrinter from "./GlobalPrinter";
-import CodeArt from "./CodeArt";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import "./nur.css";
+import { Tab } from '@headlessui/react';
+import { useState } from 'react';
+import GlobalPrinter from './GlobalPrinter';
+import CodeArt from './CodeArt';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import './nur.css';
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+  return classes.filter(Boolean).join(' ');
 }
 function MyTabs() {
   AOS.init({
@@ -27,8 +27,8 @@ function MyTabs() {
           <CodeArt />
         </div>
       </div>
-      <div className="x w-full">
-        <div className="w-[1000px] mt-10 mx-auto">
+      <div className="x">
+        <div className=" mt-10 mx-auto">
           <Tab.Group data-aos-delay="400" data-aos="fade-up">
             <div className="tab flex">
               <Tab.List className="tab2 grid ">
@@ -36,9 +36,9 @@ function MyTabs() {
                   <Tab
                     className={({ selected }) =>
                       classNames(
-                        "px-1 py-1 text-[20px] leading-5 font-medium text-blue-700 rounded-md",
-                        "focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60",
-                        selected ? "bg-white shadow" : "text-blue-100 hover:bg-white/[0.12]"
+                        'px-1 py-1 text-[20px] leading-5 font-medium text-blue-700 rounded-md',
+                        'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-blue-400 ring-white ring-opacity-60',
+                        selected ? 'bg-white shadow' : 'text-blue-100 hover:bg-white/[0.12]'
                       )
                     }
                   >
@@ -51,9 +51,9 @@ function MyTabs() {
                   <Tab
                     className={({ selected }) =>
                       classNames(
-                        "px-1 py-1 text-[20px] leading-5 font-medium text-red-500 rounded-md",
-                        "focus:outline-none focus:ring-2 ring-offset-2 ring-offset-red-400 ring-white ring-opacity-60",
-                        selected ? "bg-white shadow" : "text-red-200 hover:bg-white/[0.12]"
+                        'px-1 py-1 text-[20px] leading-5 font-medium text-red-500 rounded-md',
+                        'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-red-400 ring-white ring-opacity-60',
+                        selected ? 'bg-white shadow' : 'text-red-200 hover:bg-white/[0.12]'
                       )
                     }
                   >
