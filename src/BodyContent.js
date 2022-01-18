@@ -78,7 +78,13 @@ function BodyContent() {
           </div>
         </div>
       </div>
-      <img data-aos="zoom-in-up" data-aos-delay="220" data-aos-offset="400" className=" p-9 lg:w-1/3 order-1 lg:order-2" src="https://www.svgrepo.com/show/194570/qr-code.svg" />
+      <img
+        data-aos="zoom-in-up"
+        data-aos-delay="220"
+        data-aos-offset="400"
+        className=" p-9 lg:w-1/3 w-[75%] order-1 lg:order-2"
+        src="https://www.svgrepo.com/show/194570/qr-code.svg"
+      />
     </div>
   );
 }

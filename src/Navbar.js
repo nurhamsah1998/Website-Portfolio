@@ -14,7 +14,7 @@ function Navbar() {
       </div>
 
       <div className="flex items-center">
-        <ul className="hidden lg:flex md:grid mr-10">
+        <ul className="hidden lg:flex md:hidden mr-10">
           <li>
             <a className="hover:bg-teal-300 p-2 duration-300 hover:text-black font-semibold text-teal-100 mr-10" href="#header">
               About
