@@ -109,7 +109,7 @@ function MyWork() {
     alert('COMING SOON');
   }
   return (
-    <div id="work" className="w-full pt-[140px] pb-[70px] px-10 ">
+    <div id="work" className="w-full pt-[140px] pb-[70px] px-10">
       <Slider className="nur mx-auto w-[1000px] h-[480px]" {...settings}>
         {data.map((i) => {
           return (
