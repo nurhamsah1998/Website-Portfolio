@@ -25,7 +25,7 @@ function Header() {
           </span>
         </p>
 
-        <div className="grid s text-right  ml-5">
+        <div className="grid s">
           <p data-aos-delay="1500" data-aos="fade-down" className="py-1 text-[50px]  text2 font-extralight">
             Pembuat Aplikasi Berbasis Web dan Android.
           </p>
