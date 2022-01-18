@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import img1 from "./image/1.png";
-import img2 from "./image/2.png";
-import img3 from "./image/3.png";
-import img4 from "./image/4.png";
-import img5 from "./image/5.png";
-import "./nur.css";
+import React, { Component } from 'react';
+import Slider from 'react-slick';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import img1 from './image/1.png';
+import img2 from './image/2.png';
+import img3 from './image/3.png';
+import img4 from './image/4.png';
+import img5 from './image/5.png';
+import './nur.css';
 
 function MyWork() {
   AOS.init({
@@ -33,6 +33,24 @@ function MyWork() {
       {
         breakpoint: 852,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 375,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 636,
+        settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
@@ -45,52 +63,50 @@ function MyWork() {
     {
       id: 1,
       img: img3,
-      judul: "TODO LIST",
-      title:
-        "Aplikasi TODO LIST. disertai dengan update list dan delete list secara complex dan mudah. bisa anda lihat dilink bawah ini.",
-      btn: "View On GitHub",
-      btn1: "view DEMO",
-      link: "https://github.com/nurhamsah1998/kompex-todo-list.git",
+      judul: 'TODO LIST',
+      title: 'Aplikasi TODO LIST. disertai dengan update list dan delete list secara complex dan mudah. bisa anda lihat dilink bawah ini.',
+      btn: 'View On GitHub',
+      btn1: 'view DEMO',
+      link: 'https://github.com/nurhamsah1998/kompex-todo-list.git',
     },
     {
       id: 1,
       img: img2,
-      judul: "CHAT APP",
-      title:
-        "Aplikasi sederhana chat seperti Whatsapp. Dengan fitur login menggunakan akun google.",
-      btn: "View On GitHub",
-      btn1: "view DEMO",
-      link: "https://github.com/nurhamsah1998/chat-app.git",
+      judul: 'CHAT APP',
+      title: 'Aplikasi sederhana chat seperti Whatsapp. Dengan fitur login menggunakan akun google.',
+      btn: 'View On GitHub',
+      btn1: 'view DEMO',
+      link: 'https://github.com/nurhamsah1998/chat-app.git',
     },
     {
       id: 1,
       img: img4,
-      judul: "PORTFOLIO",
-      title: "Website portfolio proffesional, dengan effect animasi ketika di scroll.",
-      btn: "View On GitHub",
-      btn1: "view DEMO",
+      judul: 'PORTFOLIO',
+      title: 'Website portfolio proffesional, dengan effect animasi ketika di scroll.',
+      btn: 'View On GitHub',
+      btn1: 'view DEMO',
     },
     {
       id: 1,
       img: img1,
-      judul: "SERVER NODE.JS",
-      title: "Membuat server untuk penyimpanan di MongoDB.",
-      btn: "View On GitHub",
-      btn1: "view DEMO",
-      link: "https://github.com/nurhamsah1998/server-satabase.git",
+      judul: 'SERVER NODE.JS',
+      title: 'Membuat server untuk penyimpanan di MongoDB.',
+      btn: 'View On GitHub',
+      btn1: 'view DEMO',
+      link: 'https://github.com/nurhamsah1998/server-satabase.git',
     },
     {
       id: 1,
       img: img5,
-      judul: "LIST APP",
-      title: "Aplikasi web, seperti todolist dengan perbedaan berisi beberapa input data.",
-      btn: "View On GitHub",
-      btn1: "view DEMO",
-      link: "https://github.com/nurhamsah1998/ListApp.git",
+      judul: 'LIST APP',
+      title: 'Aplikasi web, seperti todolist dengan perbedaan berisi beberapa input data.',
+      btn: 'View On GitHub',
+      btn1: 'view DEMO',
+      link: 'https://github.com/nurhamsah1998/ListApp.git',
     },
   ];
   function soon() {
-    alert("COMING SOON");
+    alert('COMING SOON');
   }
   return (
     <div id="work" className="w-full pt-[140px] pb-[70px] px-10 ">
@@ -98,11 +114,7 @@ function MyWork() {
         {data.map((i) => {
           return (
             <div className="w-full" key={i.id}>
-              <div
-                data-aos-delay="500"
-                data-aos="fade-up"
-                className="w-[300px] mx-auto rounded-xl items-center h-[450px] border-[2px] border-teal-500 p-2"
-              >
+              <div data-aos-delay="500" data-aos="fade-up" className="w-[300px] mx-auto rounded-xl items-center h-[450px] border-[2px] border-teal-500 p-2">
                 <div className="h-[210px] w-[280px] mx-auto">
                   <img className=" h-full w-full rounded-md" src={i.img} />
                 </div>
@@ -126,11 +138,7 @@ function MyWork() {
           );
         })}
       </Slider>
-      <p
-        data-aos-delay="100"
-        data-aos="fade-down"
-        className="text-[40px] font-light text-center  pt-5"
-      >
+      <p data-aos-delay="100" data-aos="fade-down" className="text-[40px] font-light text-center  pt-5">
         ALL MY WORK
       </p>
     </div>

@@ -1,6 +1,6 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .nur {
-    width: 750px;
+    width: 650px;
   }
   .tab {
     display: grid;
@@ -12,8 +12,18 @@
   .x {
     display: none;
   }
+  .a {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .s {
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+  }
 }
-@media only screen and (max-width: 852px) {
+@media only screen and (max-width: 640px) {
   .nur {
     width: 300px;
   }
@@ -35,6 +45,16 @@
   }
   .n,
   .m {
-    width: 380px;
+    width: 350px;
+  }
+  .f {
+    width: 250px;
+    margin: 30px auto;
+  }
+  .j {
+    margin-top: 20px;
+  }
+  .s {
+    width: 300px;
   }
 }
