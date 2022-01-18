@@ -110,7 +110,7 @@ function MyWork() {
   }
   return (
     <div id="work" className="w-full pt-[140px] pb-[70px] px-10">
-      <Slider className="nur mx-auto w-[1000px] h-[480px]" {...settings}>
+      <Slider className="nur mx-auto h-[480px]" {...settings}>
         {data.map((i) => {
           return (
             <div className="w-full" key={i.id}>
