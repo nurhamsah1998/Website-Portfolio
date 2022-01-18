@@ -107,7 +107,7 @@ function MyWork() {
     },
   ];
   function soon() {
-    alert('COMING SOON');
+    alert('not available now!');
   }
   return (
     <div id="work" className="w-full pt-[140px] pb-[70px] px-10">
