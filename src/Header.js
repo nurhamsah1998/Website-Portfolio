@@ -17,7 +17,7 @@ function Header() {
         <p data-aos-delay="500" data-aos="fade-up" className="mt-5 font-light text-5xl">
           NURHAMSAH.
         </p>
-        <p data-aos-delay="900" data-aos="fade-up" className="text1 mt-5 font-bold mb-5">
+        <p data-aos-delay="900" data-aos="fade-up" className="text1 text-[50px] mt-5 font-bold mb-5">
           Junior Programmer
           <span data-aos-delay="900" data-aos="fade-up" className="text-teal-500 ">
             {' '}
